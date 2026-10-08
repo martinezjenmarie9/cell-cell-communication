@@ -31,7 +31,7 @@ According to The Human Protein Atlas (Granulocytes - Eosinophils table), PRSS33 
 
 The eosinophil produces and secretes PRSS33, which can signal through F2RL1 (PAR2) on airway fibroblasts in the context of inducing extracellular matrix synthesis and tissue remodeling during allergic inflammation. 
 
-## Part D. Explore the Receptor-Centered Network in STRING
+## Part D: Explore the Receptor-Centered Network in STRING
 
 **Proteins included in the STRING network:**
 
@@ -71,6 +71,27 @@ Thrombin signalling through proteinase activated receptors (PARs)
 
 STRING edges represent functional associations and do not necessarily indicate direct physical interactions or prove the exact order of signaling events. GNAQ, GNB1, and GNG2 were selected based on their functional annotations and their association with F2RL1/PAR2.
 
+## Part E: Validation of One Molecular Interaction in IntAct
+
+**Featured Protein Pair:** GNB1 — GNAQ
+
+**Interacting Molecules**
+
+Molecule A: GNB1 (UniProt AC: P62873)
+
+Molecule B: GNAQ (UniProt AC: P50148)
+
+**Interaction Detection Method:** anti tag coip (Anti-tag coimmunoprecipitation)
+
+**Interactor A Species:** *Homo sapiens* (TaxID: 9606)
+
+**Interactor B Species:** *Homo sapiens* (TaxID: 9606)
+
+**Host Organism:** *Homo sapiens HEK293T embryonic kidney cell*
+
+**Publication / Reference Information:** [https://www.cell.com/cell/fulltext/S0092-8674(21)00446-3?]_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867421004463%3Fshowall%3Dtrue
+
+**Interaction Type:** Physical association
 
 
 
