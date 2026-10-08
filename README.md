@@ -27,15 +27,51 @@ According to The Human Protein Atlas (Granulocytes - Eosinophils table), PRSS33 
 
 **Justification:** PRSS33 is a locally secreted protease. Upon release by activated eosinophils into surrounding tissue, it acts locally on adjacent cells (such as epithelial cells and airway tissue) to regulate immune signaling and remodeling rather than acting as a systemic endocrine hormone.
 
-**Verification Status**
-* **Status:** **Confirmed.** Verified directly via HPA single-cell immune transcriptomics data.
-
 ## Part C: Receptor and Receiver Cell
 
 The eosinophil produces and secretes PRSS33, which can signal through F2RL1 (PAR2) on airway fibroblasts in the context of inducing extracellular matrix synthesis and tissue remodeling during allergic inflammation. 
 
-*Note* 
-According to OmniPath's **Intercell** database, PRSS33 is annotated as a *Secreted protein and a functional *Transmitter. This confirms its primary role as an extracellular signaling molecule secreted into the tissue microenvironment.While OmniPath verifies the secreted signaling role of PRSS33, its target receptor F2RL1 (PAR2) is  established through UniProt (Q8NF86) and functional immunobiology literature. PRSS33 is an extracellular serine protease that signals by cleaving the N-terminal tethered ligand domain of F2RL1 (Proteinase-activated receptor 2), triggering G-protein coupled intracellular receptor signaling. Searching F2RL1 on The Human Protein Atlas (Single Cell section) shows strong cell-surface receptor expression in tissue structural cells, including airway fibroblasts and mucosal epithelial cells. Upon cleavage by eosinophil-secreted PRSS33, these receiver cells undergo activation, producing extracellular matrix components and inflammatory cytokines.
+## Part D. Explore the Receptor-Centered Network in STRING
+
+**Proteins included in the STRING network:**
+
+PRSS33, 
+F2RL1 (PAR2),
+GNAQ,
+GNB1, 
+GNG2, 
+
+**STRING Network**
+
+
+### Functional Enrichment
+
+**Enriched functional term:**  Heterotrimeric G-protein complex
+
+**Count:** 3 of 35 proteins
+
+**False Discovery Rate (FDR):** 0.00012
+
+**Biological relevance:**  This term is relevant because F2RL1/PAR2 is a G-protein-coupled receptor, while GNAQ, GNB1, and GNG2 are components of heterotrimeric G-protein signaling.
+
+**Enriched pathway:**  
+Thrombin signalling through proteinase activated receptors (PARs)
+
+**False Discovery Rate (FDR):** 5.68 × 10⁻⁵
+
+**Biological relevance:**  This pathway is relevant because F2RL1 is PAR2, a member of the proteinase-activated receptor family.
+
+**Proteins connecting receptor activation to the cellular response**
+
+1. **GNAQ**
+2. **GNB1**
+3. **GNG2** 
+
+**STRING Interpretation Note**
+
+STRING edges represent functional associations and do not necessarily indicate direct physical interactions or prove the exact order of signaling events. GNAQ, GNB1, and GNG2 were selected based on their functional annotations and their association with F2RL1/PAR2.
+
+
 
 
 
