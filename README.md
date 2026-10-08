@@ -31,6 +31,9 @@ According to The Human Protein Atlas (Granulocytes - Eosinophils table), PRSS33 
 
 The eosinophil produces and secretes PRSS33, which can signal through F2RL1 (PAR2) on airway fibroblasts in the context of inducing extracellular matrix synthesis and tissue remodeling during allergic inflammation. 
 
+**Biological Justification & Pathway Context:** 
+  In allergic airway inflammation, activated eosinophils release the trypsin-like serine protease PRSS33 into the extracellular matrix. F2RL1 (PAR2) is a well-characterized transmembrane G-protein coupled receptor (GPCR) abundantly expressed on the surface of human lung and airway fibroblasts (validated by the *Human Protein Atlas* and *UniProt* entry P55085). In airway fibroblasts, this cell-to-cell communication axis triggers cell proliferation, extracellular matrix (ECM) synthesis, and tissue remodeling associated with allergic conditions like chronic asthma.
+  
 ## Part D: Explore the Receptor-Centered Network in STRING
 
 **Proteins included in the STRING network:**
@@ -41,7 +44,8 @@ GNAQ,
 GNB1, 
 GNG2, 
 
-**STRING Network**
+**STRING Network:**
+![STRING Network Evidence](<img width="3253" height="773" alt="03_string_network" src="https://github.com/user-attachments/assets/f16107e0-5146-4137-b982-24f0636a072a" />)
 
 
 ### Functional Enrichment
@@ -73,29 +77,21 @@ STRING edges represent functional associations and do not necessarily indicate d
 
 ## Part E: Validation of One Molecular Interaction in IntAct
 
-**Featured Protein Pair:** GNB1 — GNAQ
+**Featured Interacting Pair:** GNB1 — GNG2
 
 **Interacting Molecules**
+- **Molecule A:** GNB1 (UniProt AC: P62873)
+- **Molecule B:** GNG2 (UniProt AC: P59768)
 
-Molecule A: GNB1 (UniProt AC: P62873)
-
-Molecule B: GNAQ (UniProt AC: P50148)
-
-**Interaction Detection Method:** anti tag coip (Anti-tag coimmunoprecipitation)
+**Interaction Detection Method:** ion exchange chrom (Ion exchange chromatography)
 
 **Interactor A Species:** *Homo sapiens* (TaxID: 9606)
 
 **Interactor B Species:** *Homo sapiens* (TaxID: 9606)
 
-**Host Organism:** *Homo sapiens HEK293T embryonic kidney cell*
+**Host Organism:** *Trichoplusia ni* (Cabbage looper)
 
-**Publication / Reference Information:** [https://www.cell.com/cell/fulltext/S0092-8674(21)00446-3?]_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867421004463%3Fshowall%3Dtrue
+**Publication / Reference Information:**
+[23739333](https://europepmc.org/article/MED/23739333)
 
 **Interaction Type:** Physical association
-
-
-
-
-
-
-
