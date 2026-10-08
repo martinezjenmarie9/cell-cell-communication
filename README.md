@@ -95,3 +95,17 @@ STRING edges represent functional associations and do not necessarily indicate d
 [23739333](https://europepmc.org/article/MED/23739333)
 
 **Interaction Type:** Physical association
+
+## Part F: Final Cell-to-Cell Communication Model Interpretation 
+The figure illustrates a proposed cell-to-cell communication pathway between an eosinophil and an airway fibroblast during allergic airway inflammation. The eosinophil acts as the sender cell, releasing the serine protease PRSS33 into the airway subepithelial extracellular space. PRSS33 then interacts with the F2RL1/PAR2 receptor located on the surface of the airway fibroblast. Because PAR2 is a protease-activated receptor, PRSS33 is proposed to cleave its extracellular N-terminal region, exposing the receptor’s tethered ligand and activating intracellular signaling.
+
+Following PAR2 activation, the figure proposes a signaling cascade involving G-protein activation, PLC, Ca²⁺, PKC, and MAPK/ERK. These intracellular components transmit the signal from the cell membrane to the cellular response. The expected response of the receiver cell is increased fibroblast proliferation and extracellular matrix (ECM) synthesis. Increased production and deposition of ECM components can contribute to airway wall remodeling, which is associated with chronic allergic airway inflammation and asthma.
+
+Overall, the figure represents how an eosinophil-derived signal may influence airway fibroblast behavior. The PRSS33–PAR2 interaction and resulting fibroblast/ECM response are supported by biological evidence, while the complete intracellular sequence shown is a proposed mechanistic pathway and should therefore be interpreted as a model rather than a fully established sequence.
+
+## Reference Resources
+
+* **OmniPath: intra- and intercellular signaling knowledge:** https://omnipathdb.org/ * **STRING: functional protein association networks:** https://string-db.org/
+* **IntAct molecular interaction database:** https://www.ebi.ac.uk/intact/  Human Protein Atlas: https://www.proteinatlas.org/
+* **UniProt:** https://www.un
+* 
