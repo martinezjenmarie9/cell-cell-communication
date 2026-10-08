@@ -31,8 +31,8 @@ According to The Human Protein Atlas (Granulocytes - Eosinophils table), PRSS33 
 
 The eosinophil produces and secretes PRSS33, which can signal through F2RL1 (PAR2) on airway fibroblasts in the context of inducing extracellular matrix synthesis and tissue remodeling during allergic inflammation. 
 
-**Biological Justification & Pathway Context:** 
-  In allergic airway inflammation, activated eosinophils release the trypsin-like serine protease PRSS33 into the extracellular matrix. F2RL1 (PAR2) is a well-characterized transmembrane G-protein coupled receptor (GPCR) abundantly expressed on the surface of human lung and airway fibroblasts (validated by the *Human Protein Atlas* and *UniProt* entry P55085). In airway fibroblasts, this cell-to-cell communication axis triggers cell proliferation, extracellular matrix (ECM) synthesis, and tissue remodeling associated with allergic conditions like chronic asthma.
+**Evidence:** F2RL1 is a single-pass/multi-pass transmembrane GPCR localized on the plasma membrane of stromal cells, including human lung fibroblasts (confirmed via UniProt P55085 and Human Protein Atlas).
+
   
 ## Part D: Explore the Receptor-Centered Network in STRING
 
@@ -106,6 +106,7 @@ Overall, the figure represents how an eosinophil-derived signal may influence ai
 ## Reference Resources
 
 * **OmniPath: intra- and intercellular signaling knowledge:** https://omnipathdb.org/ * **STRING: functional protein association networks:** https://string-db.org/
-* **IntAct molecular interaction database:** https://www.ebi.ac.uk/intact/  Human Protein Atlas: https://www.proteinatlas.org/
+* **IntAct molecular interaction database:** https://www.ebi.ac.uk/intact/
+* **Human Protein Atlas:** https://www.proteinatlas.org/
 * **UniProt:** https://www.un
-* 
+* **BioRender: Scientific Figure and Illustration Software:**  https://share.google/cbpwUsf3x4einXwpr
